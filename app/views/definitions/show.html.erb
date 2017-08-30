@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id word:</strong>
+  <%= @definition.id_word %>
+</p>
+
+<p>
+  <strong>Definition:</strong>
+  <%= @definition.definition %>
+</p>
+
+<p>
+  <strong>Example:</strong>
+  <%= @definition.example %>
+</p>
+
+<%= link_to 'Edit', edit_definition_path(@definition) %> |
+<%= link_to 'Back', definitions_path %>

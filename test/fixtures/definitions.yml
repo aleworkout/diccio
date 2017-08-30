@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_word: 1
+  definition: MyText
+  example: MyText
+
+two:
+  id_word: 1
+  definition: MyText
+  example: MyText
